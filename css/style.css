@@ -1,0 +1,6 @@
+.border-black {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: lightpink;
+    text-align: center;
+}
