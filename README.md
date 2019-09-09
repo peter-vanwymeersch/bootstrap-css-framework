@@ -13,4 +13,4 @@ Languages:  HTML5, CSS3
 
 Version:    Final version - 09/09/2019
 
-URL:        https://github.com/peter-vanwymeersch/bootstrap-css-framework
+URL:        https://peter-vanwymeersch.github.io/bootstrap-css-framework
