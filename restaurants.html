@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8">
@@ -35,27 +35,28 @@
     <div class="container">
         <div class=" column">
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <div style="overflow:hidden;width: 500px;position: relative;"><iframe width="500" height="342"
+                <div class="col-12 col-md-6 my-2">
+                    <div class="resto-map">
+                        <iframe width="500" height="342"
                             src="https://maps.google.com/maps?width=500&amp;height=342&amp;hl=en&amp;q=bruxelles%20place%20jourdan+(Place%20Jourdan)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <div
-                            style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
-                            <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                        <div class="resto-map1">
+                            <small class="resto-style">Powered by <a
                                     href="https://embedgooglemaps.com/en/">embedgooglemaps FR</a> & <a
                                     href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">tickets online
                                     buchen</a>
                             </small>
                         </div>
-                        <style>
+                        <style id="gmap_canvas">
                             #gmap_canvas img {
                                 max-width: none !important;
-                                background: none !important
+                                background: none !important;
                             }
                         </style>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 my-2">
                     <img class="d-block w-100" src="images/jourdan.jpeg" alt="Place Jourdan">
                     <div>
                         <h1>GoodFood - Jourdan</h1>
@@ -69,25 +70,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6">
-                    <div style="overflow:hidden;width: 500px;position: relative;">
-                        <iframe width="500" height="342" src="https://maps.google.com/maps?width=500&amp;height=342&amp;hl=en&amp;q=bruxelles%20place%20sainte-catherine+(Place%20Sainte-Catherine)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <div class="col-12 col-md-6 my-2">
+                    <div class="resto-map">
+                        <iframe width="500" height="342"
+                         src="https://maps.google.com/maps?width=500&amp;height=342&amp;hl=en&amp;q=bruxelles%20place%20sainte-catherine+(Place%20Sainte-Catherine)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                         </iframe>
-                        <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
-                            <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
-                                    href="https://embedgooglemaps.com/es/">https://embedgooglemaps.com/es/</a> & <a
-                                    href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">buch
-                                    voraus</a></small>
+                        <div class="resto-map1">
+                            <small class="resto-style">Powered by <a
+                                href="https://embedgooglemaps.com/es/">https://embedgooglemaps.com/es/</a> & <a
+                                href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">buch
+                                voraus</a>
+                            </small>
                         </div>
                         <style>
                             #gmap_canvas img {
                                 max-width: none !important;
-                                background: none !important
+                                background: none !important;
                             }
                         </style>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 my-2">
                     <img class="d-block w-100" src="images/catherine.jpeg" alt="Place Sainte-Catherine">
                     <div>
                         <h1>GoodFood - Ste Catherine</h1>
@@ -133,6 +136,7 @@
                         <a class="fa fa-twitter" href="https://instagram.com"></a>
                     </div>
                 </div>
+            </div>
         </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
